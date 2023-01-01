@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 536721544805.dkr.ecr.us-east-2.amazonaws.com/eks-example:eks-workshop-sample-api-service-go.master..2023-01-01.20.44.52.7c2bc4bf
+        image: 536721544805.dkr.ecr.us-east-2.amazonaws.com/image-codepipeline-ecrdockerrepository-uihyseswlkxw:eks-workshop-sample-api-service-go.master..2023-01-01.20.44.52.7c2bc4bf
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
